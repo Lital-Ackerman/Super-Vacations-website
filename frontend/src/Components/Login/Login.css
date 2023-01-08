@@ -1,0 +1,43 @@
+.form-control{
+    width: 300px;
+}
+
+.form-select{
+    width: 300px; 
+    height:min-content;
+
+}
+
+.loginDiv{
+    padding: 20px;
+    width: max-content; 
+    margin: auto;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+
+}
+
+h1{
+    font-family: 'Rokkitt', serif;
+}
+
+.loginDiv p{
+    color: red;
+    font-weight: bold;
+    display: inline;
+
+}
+
+form {
+    font-weight: bold;
+    
+    
+    
+}
+
+.loginDiv button{
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+  

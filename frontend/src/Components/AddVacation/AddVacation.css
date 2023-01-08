@@ -1,0 +1,11 @@
+.addVacationDiv p{
+    color: red;
+    font-weight: bold;
+    display: inline;
+
+}
+
+.addVacationDiv button{
+    margin-top: 20px;
+    font-weight: bold;
+}

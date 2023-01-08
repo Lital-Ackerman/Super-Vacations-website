@@ -1,0 +1,96 @@
+.singleVDiv{
+    max-width:500px;
+    padding-bottom: 15px;
+    background-color: rgb(252, 237, 237);
+    border-radius: 20px;
+    min-height: 200px;
+}
+
+.singleVDiv h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.followBtn{
+    border: none;
+    height: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    float: right;
+    color: rgb(182, 102, 95);
+    background-color: transparent;
+}
+
+
+.bi-pencil-fill{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-right: 5px;
+    color: rgb(182, 102, 95); 
+} 
+
+
+.userActions{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+
+.bi-x-circle-fill{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    float: right;
+    margin-right: 5px;
+    top: 3px;
+    right: 3px; 
+    color: rgb(182, 102, 95); 
+}
+
+
+.bi-pencil-fill:hover, .bi-x-circle-fill:hover{
+    color: white;
+
+}
+
+.followersCircle{
+    border-radius: 50%;
+    text-align: center;    
+    width: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    background-color: rgb(182, 102, 95);
+    color: aliceblue;
+}
+
+
+.vImg{
+    height: 200px;
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0px;
+}
+
+
+.mainInfo{
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 0%;
+}
+
+
+.mainInfo p span{ 
+font-weight: bolder;
+}
+
+.imgContainer{
+    position: relative;
+    clip-path: polygon(0 0,100% 0,100% 100%, 0 83%);
+}
+
+

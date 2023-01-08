@@ -1,0 +1,35 @@
+.chartDiv{
+    margin:auto;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+    width: 800px;
+    align-self: center;
+    width: 800px;
+    height: 400px;
+
+}
+
+.chartDiv h3{
+    font-family: cursive;
+    text-align: center;
+}
+
+@media screen and (max-width: 940px){
+    .chartDiv {
+        width: 700px ;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .chartDiv {
+        width: 600px ;
+    }    
+}
+
+@media screen and (max-width: 576px){
+    .chartDiv {
+        width: 350px ;
+        height: 200px;
+
+    }    
+}

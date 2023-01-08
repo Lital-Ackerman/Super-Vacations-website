@@ -1,0 +1,28 @@
+.vacationsDiv {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    grid-gap: 30px;
+}
+
+.vacationsDiv h3{
+    font-family: cursive;
+    margin: auto;
+}
+
+.card{
+    border: none;
+    background-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+
+.linkAdd{
+    font-size: 1.5em;
+    font-family: "Rokkitt";
+    font-weight: bold;
+}
+
+
+

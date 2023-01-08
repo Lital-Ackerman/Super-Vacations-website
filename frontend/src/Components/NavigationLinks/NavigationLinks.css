@@ -1,0 +1,79 @@
+.topPanel{
+    height: 100%;
+    color: whitesmoke;
+}
+
+
+.navbar{
+    display: flex;
+    align-content: flex-start;
+    margin-left: 0;
+    height: fit-content;    
+    min-height: 100px;
+}
+
+
+.nav-link{
+    font-size: 1.5em;
+    margin: 0 5px 0 15px;
+    font-family: cursive;
+}
+
+.nav-link:hover{
+    color: #fbccd3;
+}
+
+
+.active {
+    font-weight: bold;
+    color: rgb(220 200 198);
+  }
+
+
+.helloUser{
+    font-family: "Handlee", cursive;
+    margin: 20px;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    position: fixed;    
+    top:3px; 
+    right: 5px ; 
+    float: right;
+ }
+
+
+.logoDiv{
+    width: 8% ;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90%;
+    margin-right: 30px;
+}
+
+
+.logoDiv img{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+
+@media screen and (max-width: 770px){
+    .logoDiv {
+        width: 15% ;
+    }    
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+#doCollapse{ 
+position: fixed;   
+right: 6px;
+top: 50px;
+}
